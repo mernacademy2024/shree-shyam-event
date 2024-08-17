@@ -1,6 +1,6 @@
 import React from "react";
 import PriceCard from "../component/PriceCard";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 function Price() {
   return (
@@ -16,7 +16,6 @@ function Price() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
             viewport={{ once: true }}
-            className="lg:text-3xl text-2xl font-bold"
             className="text-zinc-800 font-bold text-5xl"
           >
             Services & Pricing
@@ -26,7 +25,6 @@ function Price() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0, transition: { duration: 1 } }}
             viewport={{ once: true }}
-            className="lg:text-3xl text-2xl font-bold"
             className=" text-zinc-400 font-medium text-sm lg:text-lg"
           >
             Please choose your package
@@ -44,7 +42,6 @@ function Price() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
           viewport={{ once: true }}
-          className="lg:text-3xl text-2xl font-bold"
           className="text-lg lg:pb-0 pb-10 text-zinc-800"
         >
           Nunc euismod ipsum vel metus rhoncus, a accumsan sapien mollis. Donec

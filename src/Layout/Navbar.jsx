@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "/logo/Shree.png";
+import logo from "/logo/sslogowhite.png";
 import { Link } from "react-router-dom";
 import { RiMenu3Line } from "react-icons/ri";
 
@@ -27,12 +27,12 @@ function Navbar() {
   return (
     <div
       className={` w-full h-24 ${
-        showNavbar ? "bg-white" : "backdrop-blur-lg shadow-lg "
+        showNavbar ? " h-28" : "backdrop-blur-lg shadow-lg "
       } lg:flex hidden justify-between items-center duration-1000  lg:px-16 px-[1px] fixed z-10 top-0 left-0 drop-shadow`}
     >
       <div className="lg:flex items-center hidden   ">
         <img
-          className="w-64  object-cover drop-shadow-md  "
+          className="w-36  object-cover drop-shadow-md  "
           src={logo}
           alt=""
         />

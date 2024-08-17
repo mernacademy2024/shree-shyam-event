@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         webgreen: "#08c1b8",
+        honey:"#E5811F"
       },
     },
   },

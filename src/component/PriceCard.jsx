@@ -1,7 +1,7 @@
 import React from "react";
 import cardImg from "/images/price-box-2.jpg";
 import { PiCalendarHeart } from "react-icons/pi";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 function PriceCard() {
   return (
